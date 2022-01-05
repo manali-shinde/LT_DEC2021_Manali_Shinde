@@ -1,0 +1,63 @@
+#cakes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #cakes td, #cakes th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  #cakes tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #cakes tr:hover {background-color: #ddd;}
+  
+  #cakes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ffe6ff;
+    color: #222;
+    font-size: larger;
+  }
+
+  section{
+	border:1px solid pink;  
+	padding:15px;  
+	margin:10px; 
+}
+
+section h1{
+	margin: 0 0 20px;
+  padding: 0;
+  font-size: 48px;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+  color: #222;
+}
+
+.button {
+  background-color: #444;
+  margin-top: 15px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  left: 45%;
+  border: olive;
+  border-radius: 5%;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
